@@ -27,8 +27,10 @@ LangTutor AI/
 ├── .gitignore           # Daftar file yang diabaikan oleh Git
 ├── app.py               # Tampilan antarmuka Streamlit
 ├── README.md            # Dokumentasi proyek
-└── requirements.txt     # List dependency yang akan di install
+└── requirements.txt     # List dependencies yang akan di install
 ```
+
+---
 
 ## 📦 Requirements & Installation
 
@@ -36,6 +38,8 @@ LangTutor AI/
     ```bash
     pip install -r requirements.txt
     ``` 
+
+---
 
 ## 🏃 Cara Jalankan
 
