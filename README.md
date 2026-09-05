@@ -1,6 +1,6 @@
 # 🎓 LangTutor AI
 
-LangTutor AI adalah aplikasi pembelajaran bahasa interaktif berbasis AI yang dibangun menggunakan **Streamlit**, **LangChain**, dan **Groq LLM** (`llama-3.1-8b-instant`). Aplikasi ini dirancang untuk membantu pengguna belajar berbagai bahasa melalui percakapan kontekstual, koreksi *grammar*, serta fitur *guardrails* agar pembicaraan tetap fokus pada materi bahasa.
+LangTutor AI adalah aplikasi pembelajaran bahasa interaktif berbasis AI yang dibangun menggunakan **Streamlit**, **LangChain**, dan **Groq LLM** (`openai/gpt-oss-120b`). Aplikasi ini dirancang untuk membantu pengguna belajar berbagai bahasa melalui percakapan kontekstual, koreksi *grammar*, serta fitur *guardrails* agar pembicaraan tetap fokus pada materi bahasa.
 
 ---
 
@@ -26,4 +26,25 @@ LangTutor AI/
 ├── .env.example         # Templat file environment
 ├── .gitignore           # Daftar file yang diabaikan oleh Git
 ├── app.py               # Tampilan antarmuka Streamlit
-└── README.md            # Dokumentasi proyek
+├── README.md            # Dokumentasi proyek
+└── requirements.txt     # List dependency yang akan di install
+```
+
+## 📦 Requirements & Installation
+
+1.**Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ``` 
+
+## 🏃 Cara Jalankan
+
+1. **Clone Repositori**
+    ```bash
+    git clone https://github.com/username/langtutor-ai.git
+    cd langtutor-ai
+    ```
+2. **Jalankan Aplikasi**
+    ```bash
+    streamlit run app.py
+    ```
