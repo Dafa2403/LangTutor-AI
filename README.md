@@ -63,8 +63,7 @@ LangTutor AI/
 ## 🔌 API
 
 1. **/chat**\
-   *Mandatory & tidak bisa kirim string kosong!
-
+   
    Payload:
    ```
    {
@@ -74,3 +73,4 @@ LangTutor AI/
       "message": "{pesan}" 
     }
    ```
+   > *All Mandatory & tidak bisa kirim string kosong!
