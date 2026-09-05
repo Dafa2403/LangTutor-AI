@@ -49,6 +49,28 @@ LangTutor AI/
     cd langtutor-ai
     ```
 2. **Jalankan Aplikasi**
-    ```bash
-    streamlit run app.py
-    ```
+   
+   a. Streamlit
+   
+        streamlit run app.py
+   
+   b. Flask Untuk API Chat
+   
+        python main.py
+
+---
+
+## 🔌 API
+
+1. **/chat**\
+   *Mandatory & tidak bisa kirim string kosong!
+
+   Payload:
+   ```
+   {
+      "session_id": "{uniq username}", 
+      "name": "{nama}", 
+      "language": "{target bahasa}", 
+      "message": "{pesan}" 
+    }
+   ```
