@@ -48,7 +48,12 @@ LangTutor AI/
     git clone https://github.com/username/langtutor-ai.git
     cd langtutor-ai
     ```
-2. **Jalankan Aplikasi**
+2. **Copy dan rename .env.example jadi .env
+    ```
+    GROQ_API_KEY="masukan GROQ api key disini"
+    DEFAULT_MODEL="masukan model agent yg akan dipakai(contohnya openai/gpt-oss-120b)"
+    ```  
+3. **Jalankan Aplikasi**
    
    a. Streamlit
    
