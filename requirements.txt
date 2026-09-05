@@ -4,3 +4,5 @@ langchain-community
 langchain-groq
 python-dotenv
 langchain-core
+flask
+flask-cors
