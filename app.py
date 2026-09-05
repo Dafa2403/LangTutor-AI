@@ -16,7 +16,7 @@ if "language" not in st.session_state:
     st.session_state["language"] = ""
 
 if not st.session_state['name']:
-    st.subheader("Step 1 of 2: What is your name?")
+    st.subheader("What is your name?")
     
     col1, col2 = st.columns([80, 20])
     with col1:
