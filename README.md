@@ -67,7 +67,7 @@ LangTutor AI/
 
 ## 🔌 API
 
-1. **/chat**\
+1. **/chat**
    
    Payload:
    ```
